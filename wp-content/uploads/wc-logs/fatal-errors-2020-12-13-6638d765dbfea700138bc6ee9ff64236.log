@@ -1,0 +1,853 @@
+2020-12-13T08:07:48+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:07:56+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:08:20+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:10:51+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:10:57+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post.php(369): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:11:09+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:11:15+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\templates\tinymce.php(125): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\helpers\templating.php(21): include('D:\\web\\xampp\\ht...')
+#11 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(29): ux_builder_render('tinymce')
+#12 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Application->{closure}(Object(WP_Screen))
+#13 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#14 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#15 D:\web\xampp\htdocs\otoxin\wp-admin\includes\class-wp-screen.php(421): do_action('current_screen', Object(WP_Screen))
+#16 D:\web\xampp\htdocs\otoxin\wp-admin\includes\screen.php(240): WP_Screen->set_current_screen()
+#17 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(212): set_current_screen()
+#18 D:\web\xampp\htdocs\otoxin\wp-admin\post.php(12): require_once('D:\\web\\xampp\\ht...')
+#19 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:11:15+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\templates\media.php(55): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\helpers\templating.php(21): include('D:\\web\\xampp\\ht...')
+#11 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\actions\editor.php(29): ux_builder_render('media')
+#12 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Application->{closure}(Object(WP_Screen))
+#13 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#14 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#15 D:\web\xampp\htdocs\otoxin\wp-admin\includes\class-wp-screen.php(421): do_action('current_screen', Object(WP_Screen))
+#16 D:\web\xampp\htdocs\otoxin\wp-admin\includes\screen.php(240): WP_Screen->set_current_screen()
+#17 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(212): set_current_screen()
+#18 D:\web\xampp\htdocs\otoxin\wp-admin\post.php(12): require_once('D:\\web\\xampp\\ht...')
+#19 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:11:22+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post.php(369): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:11:30+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post.php(369): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:11:54+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:12:03+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:12:07+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:12:29+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:14:21+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:17:38+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:17:56+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(10): require_once('D:\\web\\xampp\\ht...')
+#12 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:18:37+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(10): require_once('D:\\web\\xampp\\ht...')
+#12 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:19:07+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:19:25+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(10): require_once('D:\\web\\xampp\\ht...')
+#12 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:20:22+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:20:26+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\admin.php(297): require_once('D:\\web\\xampp\\ht...')
+#11 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(10): require_once('D:\\web\\xampp\\ht...')
+#12 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:21:57+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:25:47+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:26:30+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:26:38+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:27:05+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:27:11+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:38:07+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:38:14+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:40:28+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit.php(489): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:40:41+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\post-new.php(83): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:52:16+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit-tags.php(666): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T08:52:44+00:00 CRITICAL Uncaught TypeError: property_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php:496
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(496): property_exists(NULL, 'products')
+#1 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php(674): Automattic\WooCommerce\Admin\Features\Onboarding::get_themes()
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Admin\Features\Onboarding->component_settings(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(132): apply_filters('woocommerce_sha...', Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php(223): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->initialize_core_data()
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-footer.php(95): do_action('admin_print_foo...')
+#10 D:\web\xampp\htdocs\otoxin\wp-admin\edit-tags.php(666): require_once('D:\\web\\xampp\\ht...')
+#11 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 496
+
+2020-12-13T10:05:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T10:23:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T10:23:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T10:28:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T10:31:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T10:31:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:16:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#11 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#12 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:17:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#11 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#12 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:17:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#11 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#12 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:17:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#11 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#12 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:19:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:19:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:20:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:24:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:24:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:24:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:24:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:24:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-13T12:25:11+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+

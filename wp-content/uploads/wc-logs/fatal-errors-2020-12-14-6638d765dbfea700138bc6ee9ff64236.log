@@ -1,0 +1,637 @@
+2020-12-14T12:59:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:00:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:01:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#8 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:22:41+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate(false)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\includes\plugin.php(701): do_action('activate_wp-goo...', false)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(58): activate_plugin('wp-google-maps/...', 'http://localhos...', false)
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:22:43+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate('')
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(193): do_action('activate_wp-goo...')
+#5 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:22:43+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate('')
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(193): do_action('activate_wp-goo...')
+#5 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:23:24+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate(false)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\includes\plugin.php(701): do_action('activate_wp-goo...', false)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(58): activate_plugin('wp-google-maps/...', 'http://localhos...', false)
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:23:26+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate('')
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(193): do_action('activate_wp-goo...')
+#5 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:23:26+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate('')
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(193): do_action('activate_wp-goo...')
+#5 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:23:41+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate(false)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\includes\plugin.php(701): do_action('activate_wp-goo...', false)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(58): activate_plugin('wp-google-maps/...', 'http://localhos...', false)
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:23:43+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate('')
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(193): do_action('activate_wp-goo...')
+#5 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:23:44+00:00 CRITICAL Uncaught Error: Class "WPGMZA\Integration\Gutenberg" not found in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php:83
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\legacy-core.php(168): WPGMZA\Plugin->__construct()
+#1 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): wpgmaps_activate('')
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-admin\plugins.php(193): do_action('activate_wp-goo...')
+#5 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\plugins\wp-google-maps\includes\class.plugin.php on line 83
+
+2020-12-14T13:39:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:39:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:40:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:40:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:40:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:41:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:41:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#3 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:41:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:44:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:44:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:44:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:50:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:50:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T13:51:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:20:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:20:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:20:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:20:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:21:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:21:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:21:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:22:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:22:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:22:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:24:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:24:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:24:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:24:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:34:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:35:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#9 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#10 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:35:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#9 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#10 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:36:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:36:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 D:\web\xampp\htdocs\otoxin\wp-blog-header.php(19): require_once('D:\\web\\xampp\\ht...')
+#9 D:\web\xampp\htdocs\otoxin\index.php(17): require('D:\\web\\xampp\\ht...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:46:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2020-12-14T14:46:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(287): UxBuilder\Ajax\PostSaver->save('')
+#7 D:\web\xampp\htdocs\otoxin\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 D:\web\xampp\htdocs\otoxin\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\web\xampp\htdocs\otoxin\wp-admin\admin-ajax.php(184): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in D:\web\xampp\htdocs\otoxin\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
